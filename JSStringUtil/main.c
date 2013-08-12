@@ -15,39 +15,39 @@
 void doIt() {
     const char* origin = "Hello";
     
-    JSString* s = JSSCreate(origin);
-    unsigned long len = JSSGetLength(s);
+    jsstring_t* s = jss_create(origin);
+    unsigned long len = jss_get_length(s);
     
-    const char* copy = JSSCopy(s, false);
-    printf("res: %s copy: %s %p %p %p len: %li\n", JSSCString(s), copy, origin, JSSCString(s), copy,len);
+    const char* copy = jss_copy(s, false);
+    printf("res: %s copy: %s %p %p %p len: %li\n", jss_c_string(s), copy, origin, jss_c_string(s), copy,len);
     free((void*)copy);
     copy = NULL;
     
-    JSString* s2 = JSSCreate(" world!");
-    JSString* concat = JSSConcat(s, s2, false);
+    jsstring_t* s2 = jss_create(" world!");
+    jsstring_t* concat = jss_concat(s, s2, false);
     
-    printf("Concat res: %s\n", JSSCString(concat));
+    printf("Concat res: %s\n", jss_c_string(concat));
     
-    JSString* subs = JSSSubstr(concat, 2, 3, false);
+    jsstring_t* subs = jss_substr(concat, 2, 3, false);
     if (subs) {
-        printf("Substring: %s\n", JSSCString(subs));
-        JSSDestroy(subs);
+        printf("Substring: %s\n", jss_c_string(subs));
+        jss_destroy(subs);
     }
     int count, i;
-    JSString** list = JSSSplit(concat, 'p', false, &count);
+    jsstring_t** list = jss_split(concat, ' ', false, &count);
     
     for (i = 0; i<count; i++) {
-        printf("Split item: %s\n", JSSCString(list[i]));
+        printf("Split item: %s\n", jss_c_string(list[i]));
     }
     
     
-    int si = JSSSearchCString(concat, "an", 16);
+    int si = jss_search_c_string(concat, "w", 0);
     printf("Match index: %i\n", si);
 
-    JSSDestroyList(list, count);
-    JSSDestroy(s);
-    JSSDestroy(s2);
-    JSSDestroy(concat);
+    jss_destroy_list(list, count);
+    jss_destroy(s);
+    jss_destroy(s2);
+    jss_destroy(concat);
     
 }
 int main(int argc, const char * argv[])

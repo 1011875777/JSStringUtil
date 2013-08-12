@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/johansundhage/Documents/03_XCode/JSStringUtil/JSStringUtil/main.c \
-  /Users/johansundhage/Documents/03_XCode/JSStringUtil/JSStringUtil/JSStringUtil.h
+  /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/main.c \
+  /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/JSStringUtil.h

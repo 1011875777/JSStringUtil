@@ -2,9 +2,9 @@ TJSStringUtil
 v5
 r1
 cCheck dependencies
-cCompileC build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/main.o /Users/johansundhage/Documents/03_XCode/JSStringUtil/JSStringUtil/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/JSStringUtil.o /Users/johansundhage/Documents/03_XCode/JSStringUtil/JSStringUtil/JSStringUtil.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/johansundhage/Documents/03_XCode/JSStringUtil/build/Debug/JSStringUtil normal x86_64
+cCompileC build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/JSStringUtil.o /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/JSStringUtil.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/main.o /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/Debug/JSStringUtil normal x86_64
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
 c000000005130312F00000000000000AA
@@ -26,20 +26,56 @@ c0000000051B5EA880000000000006762
 t1370876552
 s26466
 
+N/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/JSStringUtil.c
+c00000000520884770000000000001330
+t1376289911
+s4912
+
+N/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/JSStringUtil.h
+c00000000520884BC0000000000000761
+t1376289980
+s1889
+
+N/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/main.c
+c0000000052088108000000000000054F
+t1376289032
+s1359
+i<stdio.h>
+i<stdlib.h>
+i<unistd.h>
+i"JSStringUtil.h"
+
+N/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/Debug/JSStringUtil
+t1376289981
+s15512
+
+N/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/JSStringUtil.LinkFileList
+c000000005203AA140000000000000128
+t1375971860
+s296
+
+N/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/JSStringUtil.o
+t1376289981
+s11568
+
+N/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/main.o
+t1376289981
+s5196
+
 N/Users/johansundhage/Documents/03_XCode/JSStringUtil/JSStringUtil/JSStringUtil.c
 c0000000052039D5B00000000000011AE
 t1375968603
 s4526
 
 N/Users/johansundhage/Documents/03_XCode/JSStringUtil/JSStringUtil/JSStringUtil.h
-c0000000052039D010000000000000609
-t1375968513
-s1545
+c000000005203A1E40000000000000677
+t1375969764
+s1655
 
 N/Users/johansundhage/Documents/03_XCode/JSStringUtil/JSStringUtil/main.c
-c000000005203A1BD0000000000000542
-t1375969725
-s1346
+c000000005203A1F3000000000000052C
+t1375969779
+s1324
 i<stdio.h>
 i<stdlib.h>
 i<unistd.h>
@@ -62,6 +98,12 @@ N/Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/D
 t1375969645
 s5620
 
+CBuild AST from /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/JSStringUtil.c
+r0
+
+CBuild AST from /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/main.c
+r0
+
 CBuild AST from /Users/johansundhage/Documents/03_XCode/JSStringUtil/JSStringUtil/JSStringUtil.c
 r0
 
@@ -70,7 +112,20 @@ r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesbc96b43dd9b3b741^df17b73dd9b3b741^---0#1#0#--18"Check dependencies36"59594FF1-0976-492A-954A-AFA35EE6FBF4-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesf225b03ebcb8b741^ad4cb03ebcb8b741^---0#1#0#--18"Check dependencies36"3A3AEBA3-8E97-45D6-AFE0-E0281481E6F0-
+
+CCompileC build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/JSStringUtil.o /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/JSStringUtil.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s397982781.043699
+e397982781.070003
+r1
+xCompileC
+xbuild/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/JSStringUtil.o
+x/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/JSStringUtil.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/JSStringUtil.caf410b3dbcb8b741^85eb113dbcb8b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/JSStringUtil.c0000000000000000^3066"CompileC build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/JSStringUtil.o JSStringUtil/JSStringUtil.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/JSStringUtil-generated-files.hmap -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/JSStringUtil-own-target-headers.hmap -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/JSStringUtil-all-target-headers.hmap -iquote /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/JSStringUtil-project-headers.hmap -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/DerivedSources/x86_64 -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/DerivedSources -F/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/Debug -MMD -MT dependencies -MF /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/JSStringUtil.d --serialize-diagnostics /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/JSStringUtil.dia -c /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/JSStringUtil.c -o /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/JSStringUtil.o36"8AFDF851-F221-4D61-91C1-7355FCABD1A2-
 
 CCompileC build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/JSStringUtil.o /Users/johansundhage/Documents/03_XCode/JSStringUtil/JSStringUtil/JSStringUtil.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 s397661406.318891
@@ -85,6 +140,19 @@ xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/johansundhage/Documents/03_XCode/JSStringUtil/JSStringUtil/JSStringUtil.c80b651ded4b3b741^bf6358ded4b3b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/johansundhage/Documents/03_XCode/JSStringUtil/JSStringUtil/JSStringUtil.c0000000000000000^2910"CompileC build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/JSStringUtil.o JSStringUtil/JSStringUtil.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johansundhage/Documents/03_XCode/JSStringUtil    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/JSStringUtil-generated-files.hmap -I/Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/JSStringUtil-own-target-headers.hmap -I/Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/JSStringUtil-all-target-headers.hmap -iquote /Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/JSStringUtil-project-headers.hmap -I/Users/johansundhage/Documents/03_XCode/JSStringUtil/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/DerivedSources/x86_64 -I/Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/DerivedSources -F/Users/johansundhage/Documents/03_XCode/JSStringUtil/build/Debug -MMD -MT dependencies -MF /Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/JSStringUtil.d --serialize-diagnostics /Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/JSStringUtil.dia -c /Users/johansundhage/Documents/03_XCode/JSStringUtil/JSStringUtil/JSStringUtil.c -o /Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/JSStringUtil.o36"953A2085-48BF-4445-8637-44A077CA6BDE-
 
+CCompileC build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/main.o /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s397982781.043595
+e397982781.066092
+r1
+xCompileC
+xbuild/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/main.o
+x/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/main.ce63c0b3dbcb8b741^e2ea103dbcb8b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/main.c0000000000000000^3018"CompileC build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/main.o JSStringUtil/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/JSStringUtil-generated-files.hmap -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/JSStringUtil-own-target-headers.hmap -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/JSStringUtil-all-target-headers.hmap -iquote /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/JSStringUtil-project-headers.hmap -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/DerivedSources/x86_64 -I/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/DerivedSources -F/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/Debug -MMD -MT dependencies -MF /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/main.dia -c /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/JSStringUtil/main.c -o /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/main.o36"65843849-006A-4CAD-BE47-DDBDE3AECE8E-
+
 CCompileC build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/main.o /Users/johansundhage/Documents/03_XCode/JSStringUtil/JSStringUtil/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
 s397662525.716957
 e397662525.742544
@@ -97,6 +165,16 @@ xx86_64
 xc
 xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/johansundhage/Documents/03_XCode/JSStringUtil/JSStringUtil/main.c529cb73dd9b3b741^1a17be3dd9b3b741^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/johansundhage/Documents/03_XCode/JSStringUtil/JSStringUtil/main.c0000000000000000^2862"CompileC build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/main.o JSStringUtil/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/johansundhage/Documents/03_XCode/JSStringUtil    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/JSStringUtil-generated-files.hmap -I/Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/JSStringUtil-own-target-headers.hmap -I/Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/JSStringUtil-all-target-headers.hmap -iquote /Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/JSStringUtil-project-headers.hmap -I/Users/johansundhage/Documents/03_XCode/JSStringUtil/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/DerivedSources/x86_64 -I/Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/DerivedSources -F/Users/johansundhage/Documents/03_XCode/JSStringUtil/build/Debug -MMD -MT dependencies -MF /Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/main.dia -c /Users/johansundhage/Documents/03_XCode/JSStringUtil/JSStringUtil/main.c -o /Users/johansundhage/Documents/03_XCode/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/main.o36"3AEBCD0A-F64B-402A-9B24-987FF36145A3-
+
+CLd /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/Debug/JSStringUtil normal x86_64
+s397982781.076880
+e397982781.091520
+r1
+xLd
+x/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/Debug/JSStringUtil
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Link /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/Debug/JSStringUtil2cbc133dbcb8b741^db6d173dbcb8b741^---0#0#0#--824"Ld build/Debug/JSStringUtil normal x86_64    cd /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/Debug -F/Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/Debug -filelist /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/JSStringUtil.build/Debug/JSStringUtil.build/Objects-normal/x86_64/JSStringUtil.LinkFileList -mmacosx-version-min=10.8 -o /Users/johansundhage/Documents/01_GIT_Code_Projects/JSStringUtil/build/Debug/JSStringUtil36"00CC594F-18EE-479F-B0B7-AED6BB686BB4-
 
 CLd /Users/johansundhage/Documents/03_XCode/JSStringUtil/build/Debug/JSStringUtil normal x86_64
 s397662525.749465
